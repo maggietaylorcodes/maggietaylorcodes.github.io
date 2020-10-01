@@ -7,26 +7,18 @@ html {
   overflow-y: overlay;
 }
 
-.big-heading {
-  font-size: 3.4rem;
-  color: white;
-  line-height: 1.5;
-  padding-left: 40px;
-}
 
 .jumbotron .lead {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 .jumbotron .display-4 {
   font-size: 2rem;
   font-weight: bold;
 }
-.web-developer {
-  background-image: url("https://maggietaylorcodes.github.io/images/title-image.PNG");
-  font-weight: 700;
-}
+
 
 .about-section {
   background-color: #407088;
