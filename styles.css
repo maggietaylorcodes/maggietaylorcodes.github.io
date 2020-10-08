@@ -1,102 +1,69 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
 body {
-  font-family: 'Zilla Slab', serif;
-  display: inline;
-}
-/* Code below needed to correct uneeded scroll bar space on Chrome */
-html {
-  overflow-y: overlay;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
 }
 
+/*add padding at the top of the page*/
 
-.jumbotron .lead {
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 1.5;
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-12 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding-top: 80px;
+}
+.marketing h2 {
+  font-weight: 400;
+  padding-bottom: 75px;
+}
+.marketing .col-lg-12 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  padding-bottom: 75px;
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+
 }
 
-.jumbotron .display-4 {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-
-.about-section {
-  background-color: #407088;
-}
-.jumbotron {
-    background-color:transparent !important;
-
-}
-
-.container-fluid {
-  background-color: #394989;
-
-}
-.column {
-  flex: 100%;
-  padding: 30px;
-  flex-wrap: wrap;
-}
-
-
-
-.pic {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
-    max-height: 300px;
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
 }
 
 
+/* RESPONSIVE CSS
+-------------------------------------------------- */
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .row {
-    flex-direction: column;
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
   }
 }
-/*below is the code I used to make the carousel smaller and center it*/
-#carouselExampleControls {
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.bottom-container {
-margin: auto;
-display: block;
-text-align: center !important;
-padding-top: 20px;
-background-color: #394989;
-color: white;
-padding-bottom: 15px;
-}
-.social-icon {
-  margin: 20px 10px;
-}
-.booger {
-width: 150px;
-height: 150px;
-}
-
-/* Navigation Bar */
-
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.navbar-brand {
-
-  font-size: 2.5rem;
-  font-weight: bold;
-
-}
-
-.nav-item {
-  padding: 0 18px;
-
-}
-
-.nav-link {
-  font-size: 1.2rem;
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
 }
